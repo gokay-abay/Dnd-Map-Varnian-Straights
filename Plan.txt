@@ -1,0 +1,15 @@
+
+
+Change the link styling to no underline
+
+When user clicks on a link this should take them to the new page with the route name of the city clicked
+
+
+
+//1 Implement as route parameter to retrieve city name
+
+
+//2 render a new custom page with the city name
+
+
+//3 make a database with all the city names and informtion so that the user can be directed to the right page
