@@ -2,15 +2,23 @@
 .cities p {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: 700;
-  font-size: 25px
+  font-size: 1.8rem;
 }
 
-a {
+.small {
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.main-map a {
   color: black;
   position: absolute;
+  text-shadow: 5px 5px 5px white;
+  transition: .3s;
 }
 
-a:hover {
+.main-map a:hover {
   color: black;
   font-size: 30px;
   text-decoration: none;
@@ -21,29 +29,30 @@ a:hover {
   position: absolute;
   width: 100%;
   z-index: -1;
+  font-family: 'Cinzel Decorative', cursive;
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.background-div {
+  width: 100%;
+  background-image: url("https://vignette.wikia.nocookie.net/iron-throne-roleplay5113/images/6/67/SS1.jpg/revision/latest?cb=20170430153028");
 }
 
 #map {
   width: inherit;
 }
 
-.cities {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  text-decoration: none;
-  text-shadow: 5px 5px 5px white;
-  transition: transform .4s;
-}
 
 .parchment {
   position: absolute;
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image:url("https://i.pinimg.com/originals/9b/3f/7e/9b3f7e3d91021f05a95539b0ebe227c9.jpg");
+  background-image: url("https://i.pinimg.com/originals/9b/3f/7e/9b3f7e3d91021f05a95539b0ebe227c9.jpg");
   background-repeat:no-repeat;
   background-size:100% 100%;
+  text-align: center;
 }
 
 .desc {
@@ -52,12 +61,44 @@ a:hover {
   left: 100px;
 }
 
-#city-arkaddha a {
+.navbar-brand {
+  color: white;
+  font-size: 30px;
+  font-family: 'Risque', cursive;
+}
+
+.nav-link {
+  color: white;
+  font-family: 'Risque', cursive;
+}
+
+.navbar {
+  box-shadow: 0 16px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin: 8rem 3rem;
+  display: inline-block;
+  padding: 0.2rem;
+  text-align: left;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  transform: scale(1.1);
+}
+
+/* #city-arkaddha a {
   position: absolute;
 }
 
 #city-arkatka a {
   position: absolute;
+
 }
 
 #city-vitherat a {
@@ -74,4 +115,10 @@ a:hover {
 
 #city-zendikar a {
   position: absolute;
+} */
+
+#karzedan-mountains a {
+  position: absolute;
+  transform: rotate(45deg);
+
 }
